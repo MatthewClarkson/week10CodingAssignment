@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
 </head>
 <body class="container">
-    <br>
+    <br>                              <!--Start of form with label and input-->
     <div class="card">
       <div class="card-body">
         <div class="row">
@@ -17,14 +17,14 @@
                 <input type="date" class="form-control" id="new-start-date">
             </div>
          </div>
-         <div class="col-sm">
+         <div class="col-sm">          <!--Same with end date-->
             <div class="form-group">
                 <label for="new-end-date">End Date</label>
                 <input type="date" class="form-control" id="new-end-date">
             </div>
          </div>
         </div>
-        <div class="row">
+        <div class="row">             <!--New task col with placeholder-->
           <div class="col-sm">
             <div class="form-group">
               <label for="new-task">Task</label>
@@ -33,13 +33,13 @@
           </div>
         </div>
         <br>
-        <div>          
+        <div>                         <!--Add button-->
           <button id="add" class="btn btn-primary form-control">Create</button>    
         </div>
       </div>
     </div>
     <table id="list" class="table table-dark table-striped">
-      <tr>
+      <tr>                            <!--Table with all th's-->
         <th>Task</th>
         <th>Date Created</th>
         <th>Start Date</th>
